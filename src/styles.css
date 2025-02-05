@@ -1,21 +1,141 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+header {
+    background-color: #388E3C;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+    padding: 20px;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #388E3C;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .btn {
+    background-color: #66BB6A;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background-color: #388E3C;
+}
+
+.enroll-form {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.enroll-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.enroll-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.enroll-form button {
+    padding: 10px 20px;
+    background-color: #388E3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enroll-form button:hover {
+    background-color: #66BB6A;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Confirmation Message */
+#message {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.courses-list .course {
+    margin-bottom: 20px;
+}
+
+.courses-list .btn {
+    background-color: #388E3C;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
